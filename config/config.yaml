@@ -1,0 +1,24 @@
+newsapi_key: 
+openai_key:
+data: Apple WWDC_2024-06-04 01:02:29.445002.csv
+repo_id:  
+keyword: Apple WWDC 
+sort_by: publishedAt
+page: 20
+embedding_model: all-MiniLM-L6-v2
+llm_config:
+  repo_id: mistralai/Mistral-7B-Instruct-v0.2
+  max_new_tokens: 2048
+  max_length: 512
+  temperature: 0.001
+  huggingfacehub_api_token: 
+template: '''
+Use the following articles to provide a comprehensive analysis of Apple Inc. (AAPL), including overall sentiment and stock recommendation. Please ensure your analysis is thorough and the recommendation is clear.
+
+Articles:
+{context}
+
+Question: Based on the articles provided, what is the overall analysis of Apple Inc. (AAPL)? Include the sentiment (positive, negative, neutral) and a stock recommendation (strong buy, buy, neutral, sell).
+
+Helpful Answer:
+'''
