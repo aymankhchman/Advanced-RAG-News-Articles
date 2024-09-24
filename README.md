@@ -27,7 +27,7 @@ This repository showcases a project that harnesses the power of LangChain to con
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/llm-summarizer.git
+git clone https://github.com/aymankhchman/Advanced-RAG-News-Articles.git
 cd llm-summarizer
 ```
 
